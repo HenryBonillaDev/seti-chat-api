@@ -1,0 +1,35 @@
+# Entorno virtual
+venv/
+
+# Archivos de base de datos local
+*.db
+*.sqlite3
+
+# Archivos de pytest y coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Configuración de VSCode
+.vscode/
+
+# Archivos de Docker
+*.pid
+*.log
+
+# Alembic versiones (migraciones locales)
+alembic/versions/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de dependencias locales
+*.egg-info/
+dist/
+build/
