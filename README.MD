@@ -9,6 +9,8 @@ Desarrollar una API de un chat
 - **Swagger:** `http://localhost:8000/docs` - En swagger se pueden  probar los endpoint
 - **Ejecutar Pruebas:** `docker compose exec -it web pytest --cov=app --cov-report=term-missing`
 
+- Palabras para probar contenido inapropiado: "mala", "groseria", "spam"
+
 ## Cómo correr local:
 
 - python -m venv .venv && source .venv/bin/activate
